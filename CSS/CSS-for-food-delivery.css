@@ -1,0 +1,161 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+header {
+    height: 500px;
+    align-items: center;
+    position: relative;
+}
+
+#navbar {
+    position: sticky;
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.781);
+}
+
+h1{
+    text-align: center;
+}
+.head {
+    position: relative;
+    display: block;
+    font-weight: bold;
+    margin: auto;
+    color: white;
+    margin-top: 0px;
+}
+
+header::before{
+    margin-top: 0px;
+    margin-left: 0px;
+    content: "";
+    position: absolute;
+    width: 1500px;
+    height: 500px;
+    z-index: -1;
+    opacity: 0.8;
+    background: url('https://cdn.mosoah.com/wp-content/uploads/2017/07/%D8%B7%D8%B1%D9%82-%D8%AA%D8%B2%D9%8A%D9%8A%D9%86-%D8%A3%D8%B7%D8%A8%D8%A7%D9%82-%D8%A7%D9%84%D8%B7%D8%B9%D8%A7%D9%85-%D8%A8%D8%A7%D9%84%D8%B5%D9%88%D8%B1.jpg')
+}
+
+nav {
+    position: sticky;
+}
+
+
+#text {
+    text-align: center;
+    width: 700px;
+    display: block;
+    margin: auto;
+}
+
+#text a {
+    text-decoration: none;
+    color: white;
+    border: solid white 1px;
+    padding: 2px;
+    border-radius: 2px;
+}
+
+#text a:hover,
+#navbar a:hover {
+    color: grey;
+}
+
+#text a:hover {
+    border: solid gray 1px;
+}
+
+ul {
+    display: flex;
+}
+
+li {
+    list-style: none;
+}
+
+#navbar li a {
+    display: flex;
+    text-decoration: none;
+    color: white;
+    padding-left: 20px;
+}
+
+.container {
+    display: block;
+    align-items: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+.items {
+    display: flex;
+}
+
+.box {
+    padding: 20px;
+    text-align: center;
+    margin: 10px 20px;
+    border: solid red 3px;
+    border-radius: 10px;
+    background-color: rgb(221, 182, 182);
+}
+
+.box img {
+    width: 100px;
+    margin-top: 20px;
+}
+
+.clients {
+    display: block;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+}
+
+#company img {
+    margin-left: 200px;
+    margin-top: 40px;
+    /* margin: 20px; */
+    text-align: center;
+    width: 50px;
+}
+
+.form {
+    position: relative;
+    display: block;
+}
+
+.form::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.8;
+    background: url('https://th.bing.com/th/id/OIP.EX6O2FhA5hhou4byApxC0gHaFg?pid=ImgDet&rs=1') no-repeat center center/cover;
+    padding: 20px;
+}
+
+.item{
+    display: block;
+    align-items:center;
+}
+
+input,textarea{
+    width:300px ;
+    text-align: center;
+    border-radius: 7px;
+    height:25px ;
+    /* margin-left:95px;
+    margin-top: 5px; */
+    display: block;
+    margin: auto;
+    justify-content: center;
+}
+
+#submit{
+    background-color: red;
+}
